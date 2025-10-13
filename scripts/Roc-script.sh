@@ -25,6 +25,8 @@ function git_sparse_clone() {
 # Go & OpenList & ariang & frp & AdGuardHome & WolPlus & Lucky & wechatpush & OpenAppFilter & 集客无线AC控制器 & 雅典娜LED控制
 git clone --depth=1 https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
+git clone --depth=1 https://github.com/OpenListTeam/luci-app-openlist package/openlist
+git clone --depth=1 https://github.com/asvow/luci-app-tailscale package/tailscale
 git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 # nikki & momo 插件
 git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/OpenWrt-nikki
