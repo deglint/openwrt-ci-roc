@@ -89,6 +89,7 @@ chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app
 
 # 添加 Aurora 主题
 git clone --depth=1 https://github.com/eamonxg/luci-theme-aurora package/luci-theme-aurora
+git clone --depth=1 -b main https://github.com/nikkinikki-org/OpenWrt-nikki.git package/nikki
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
